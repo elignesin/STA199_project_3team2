@@ -1,0 +1,16 @@
+---
+title: "Team 2"
+subtitle: "STA 199 Project"
+format: html
+editor: visual
+---
+
+## Project abstract
+
+Life expectancy and health disparities between developed and developing countries are complex issues with significant implications for global health. This project investigated the factors most significantly affecting life expectancy.
+
+Through analysis of data from the World Health Organization, we found that HIV/AIDs, income composition of resources, and schooling have the greatest impact on life expectancy. We observed positive linear associations between life expectancy and schooling and income composition, and a negative linear association between life expectancy and HIV/AIDs mortality. Country development status also plays a role, with developing countries generally exhibiting lower life expectancy.
+
+We built two linear regression models, an additive model assuming independent effects of each factor on life expectancy and an interactive model including an interaction term between income composition and development status to examine their combined effect.
+
+While this analysis can only conclude associative relationships, not causal relationships due to the observational nature of the data, it highlights the role of both health and socioeconomic factors in determining life expectancy. Addressing these factors through targeted plans and policies could improve global health outcomes.

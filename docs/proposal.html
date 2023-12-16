@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Project Proposal</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html" rel="" target="">
+ <span class="menu-text">Team 2</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./proposal.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Proposal</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./presentation.pdf" rel="" target="">
+ <span class="menu-text">Presentation</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./report.html" rel="" target="">
+ <span class="menu-text">Report</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#data-1" id="toc-data-1" class="nav-link active" data-scroll-target="#data-1">Data 1</a>
+  <ul class="collapse">
+  <li><a href="#introduction-and-data" id="toc-introduction-and-data" class="nav-link" data-scroll-target="#introduction-and-data">Introduction and data</a></li>
+  <li><a href="#research-question" id="toc-research-question" class="nav-link" data-scroll-target="#research-question">Research question</a></li>
+  <li><a href="#literature" id="toc-literature" class="nav-link" data-scroll-target="#literature">Literature</a></li>
+  <li><a href="#glimpse-of-data" id="toc-glimpse-of-data" class="nav-link" data-scroll-target="#glimpse-of-data">Glimpse of data</a></li>
+  </ul></li>
+  <li><a href="#data-2" id="toc-data-2" class="nav-link" data-scroll-target="#data-2">Data 2</a>
+  <ul class="collapse">
+  <li><a href="#introduction-and-data-1" id="toc-introduction-and-data-1" class="nav-link" data-scroll-target="#introduction-and-data-1">Introduction and data</a></li>
+  <li><a href="#research-question-1" id="toc-research-question-1" class="nav-link" data-scroll-target="#research-question-1">Research question</a></li>
+  <li><a href="#literature-1" id="toc-literature-1" class="nav-link" data-scroll-target="#literature-1">Literature</a></li>
+  <li><a href="#glimpse-of-data-1" id="toc-glimpse-of-data-1" class="nav-link" data-scroll-target="#glimpse-of-data-1">Glimpse of data</a></li>
+  </ul></li>
+  <li><a href="#data-3" id="toc-data-3" class="nav-link" data-scroll-target="#data-3">Data 3</a>
+  <ul class="collapse">
+  <li><a href="#introduction-and-data-2" id="toc-introduction-and-data-2" class="nav-link" data-scroll-target="#introduction-and-data-2">Introduction and data</a></li>
+  <li><a href="#research-question-2" id="toc-research-question-2" class="nav-link" data-scroll-target="#research-question-2">Research question</a></li>
+  <li><a href="#literature-2" id="toc-literature-2" class="nav-link" data-scroll-target="#literature-2">Literature</a></li>
+  <li><a href="#glimpse-of-data-2" id="toc-glimpse-of-data-2" class="nav-link" data-scroll-target="#glimpse-of-data-2">Glimpse of data</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Project Proposal</h1>
+<p class="subtitle lead">Team 2 Proposal</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<section id="data-1" class="level1">
+<h1>Data 1</h1>
+<section id="introduction-and-data" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-and-data">Introduction and data</h2>
+<p>The dataset is from the World Health Organization and has data on factors that relate to life expectancy, including mortality, immunization, and socioeconomic factors. As stated by the World Health Organization, data is collected through household surveys, civil registrations, and institutional sources such as health facilities. This data is then curated into the Global Health Observatory database. The dataset has data from all countries collected from 2000 to 2015. Each observation is a country’s health status for a given year, and it includes variables such as life expectancy, mortality rates, country development status, schooling, disease rates, and alcohol rates.</p>
+</section>
+<section id="research-question" class="level2">
+<h2 class="anchored" data-anchor-id="research-question">Research question</h2>
+<p>Question: Which health and socioeconomic factors most greatly affect the life expectancy of a country, and does this differ between developed and developing countries?</p>
+<p>The research topic is life expectancy and the factors that influence it, as well as how these factors differ between countries. Our hypothesis is that developed countries will on average have higher life expectancy than developing countries, and that the factors most correlated with life expectancy are immunization coverage and income composition of resources. There are both categorical and quantitative variables involved in our research topic. Development status is a categorical variable and immunization coverage, income composition of resources, disease rates, mortality rates, and schooling are quantitative variables. Life expectancy is a quantative variable.</p>
+</section>
+<section id="literature" class="level2">
+<h2 class="anchored" data-anchor-id="literature">Literature</h2>
+<p>Article: https://www.who.int/news/item/19-05-2016-life-expectancy-increased-by-5-years-since-2000-but-health-inequalities-persist</p>
+<p>This article from the World Health Organization provides a broad overview about the disparities in life expectancy between different countries. Although life expectancy fluctuated more in the 20th century due to political circumstances, it had largely stabilized (for most countries) by the turn of the 21st century. Globally, the life expectancy for children born in 2015 was 71.4 years. However, for high-income countries, life expectancy is closer to 80 years or more, and for low-income countries, life expectancy is under 60 years. Despite dramatic gains in life expectancy in the last two decades, these major inequalities still persist. This report focuses on access to health services as a major determining factor for a nation’s life expectancy. Complications with pregnancy and childbirth, HIV incidence, malaria outbreak, cardiovascular disease, cancer, lack of clean water, etc. represent just some of these risk factors that stem from or are exacerbated by underlying issues with healthcare infrastructure.</p>
+<p>Research Question: Our research question builds on the WHO article by determining which risk factors have the greatest, most direct impact on life expectancy for different countries. Additionally, the data set includes variables that are not directly mentioned in the article, so bringing more factors to the discussion regarding disparities in life expectancy provides us with a more nuanced outlook on the topic.</p>
+</section>
+<section id="glimpse-of-data" class="level2">
+<h2 class="anchored" data-anchor-id="glimpse-of-data">Glimpse of data</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>life_expectancy <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"data/Life Expectancy Data.csv"</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(life_expectancy)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 2,938
+Columns: 22
+$ Country                         &lt;chr&gt; "Afghanistan", "Afghanistan", "Afghani…
+$ Year                            &lt;int&gt; 2015, 2014, 2013, 2012, 2011, 2010, 20…
+$ Status                          &lt;chr&gt; "Developing", "Developing", "Developin…
+$ Life.expectancy                 &lt;dbl&gt; 65.0, 59.9, 59.9, 59.5, 59.2, 58.8, 58…
+$ Adult.Mortality                 &lt;int&gt; 263, 271, 268, 272, 275, 279, 281, 287…
+$ infant.deaths                   &lt;int&gt; 62, 64, 66, 69, 71, 74, 77, 80, 82, 84…
+$ Alcohol                         &lt;dbl&gt; 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.…
+$ percentage.expenditure          &lt;dbl&gt; 71.279624, 73.523582, 73.219243, 78.18…
+$ Hepatitis.B                     &lt;int&gt; 65, 62, 64, 67, 68, 66, 63, 64, 63, 64…
+$ Measles                         &lt;int&gt; 1154, 492, 430, 2787, 3013, 1989, 2861…
+$ BMI                             &lt;dbl&gt; 19.1, 18.6, 18.1, 17.6, 17.2, 16.7, 16…
+$ under.five.deaths               &lt;int&gt; 83, 86, 89, 93, 97, 102, 106, 110, 113…
+$ Polio                           &lt;int&gt; 6, 58, 62, 67, 68, 66, 63, 64, 63, 58,…
+$ Total.expenditure               &lt;dbl&gt; 8.16, 8.18, 8.13, 8.52, 7.87, 9.20, 9.…
+$ Diphtheria                      &lt;int&gt; 65, 62, 64, 67, 68, 66, 63, 64, 63, 58…
+$ HIV.AIDS                        &lt;dbl&gt; 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1…
+$ GDP                             &lt;dbl&gt; 584.25921, 612.69651, 631.74498, 669.9…
+$ Population                      &lt;dbl&gt; 33736494, 327582, 31731688, 3696958, 2…
+$ thinness..1.19.years            &lt;dbl&gt; 17.2, 17.5, 17.7, 17.9, 18.2, 18.4, 18…
+$ thinness.5.9.years              &lt;dbl&gt; 17.3, 17.5, 17.7, 18.0, 18.2, 18.4, 18…
+$ Income.composition.of.resources &lt;dbl&gt; 0.479, 0.476, 0.470, 0.463, 0.454, 0.4…
+$ Schooling                       &lt;dbl&gt; 10.1, 10.0, 9.9, 9.8, 9.5, 9.2, 8.9, 8…</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="data-2" class="level1">
+<h1>Data 2</h1>
+<section id="introduction-and-data-1" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-and-data-1">Introduction and data</h2>
+<p>The source of the data came from the CORGIS Dataset Project. The data was originally collected from the Coffee Quality Database. The datset describes both Arabica and Robusta beans from 2010-2018. The beans are from across many countries and rated on a continuous 0-100 scale. Each observation is a type of coffee bean from a specific farm which include variables such as acidity, sweetness, and fragrance are measured. There are also variables in the dataset that provide information on the origins of the beans such as the altitude of the farm in which the beans are collected from.</p>
+</section>
+<section id="research-question-1" class="level2">
+<h2 class="anchored" data-anchor-id="research-question-1">Research question</h2>
+<p>Research question: Does Robusta or Arabica beans have a higher rating?</p>
+<p>The research topic explores the rating of the coffee bean. There is a continuous 0-100 rating of the coffee bean on various factors that impact the overall rating of the coffee bean such as acidity, sweetness, fragrance, etc. The research topic will explore the relation between the type of the coffee bean and how it impacts the factors of the overall enjoyability of the coffee bean.</p>
+<p>I hypothesize that the Arabica bean will have a higher rating. According to the Department of Agriculture, Arabica beans account for 60% of the coffee beans produced worldwide so there should be a higher quality if it is produced more.</p>
+<p>Source: https://usda.library.cornell.edu/usda/fas/tropprod//2010s/2017/tropprod-06-16-2017.pdf</p>
+<p>The types of variables in my research question are both categorical and quantitative. For categorical variables, the Country of origin of the coffee bean, whether the bean is Robusta or Arabica, and region in which coffee bean is from. The qualitative variables is altitude of the farm in which the coffee bean is produced, the number of bags of the coffee bean produced, and the scores of the coffee bean for flavor, sweetness, acidity, fragrance, uniformity, and moisture (scale of 1-10 continuous).</p>
+</section>
+<section id="literature-1" class="level2">
+<h2 class="anchored" data-anchor-id="literature-1">Literature</h2>
+<p>The article I chose was “Arabic vs.&nbsp;Robusta: No Contest” by Jerry Baldwin which was featured in the Atlantic. In the article, Baldwin provides context as to why Arabica beans are better than Robusta beans that are supported by a historical breakdown of the origins of Arabica and Robusta beans. Specifically the creation of Robusta beans were to mix in with the Arabica beans to lower the overall cost of the beans per bag. Additionally, Baldwin provides context that Robusta beans are typically more mass-produced compared to Arabica, which often forgoes the quality and taste of the bean for making more. As a result, Baldwin concludes that Arabica beans have a better taste and quality than Robusta beans. However, Baldwin says that this is a generalization and may vary from bean to bean. Our research question builds on the article by expanding the data to more quantitative data rather than qualitative reasoning based on historical context. Our research question, instead, takes quantitative data of ratings of different factors that impact the quality of the bean (flavor, acidity, sweetness, etc) to see if there is a significant quantitative difference in ratings between Arabic and Robusta beans.</p>
+<p>Link: https://www.theatlantic.com/health/archive/2009/06/arabica-vs-robusta-no-contest/19780/</p>
+</section>
+<section id="glimpse-of-data-1" class="level2">
+<h2 class="anchored" data-anchor-id="glimpse-of-data-1">Glimpse of data</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>coffee <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"data/coffee.csv"</span>)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(coffee)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 989
+Columns: 23
+$ Location.Country               &lt;chr&gt; "United States", "Brazil", "Brazil", "E…
+$ Location.Region                &lt;chr&gt; "kona", "sul de minas - carmo de minas"…
+$ Location.Altitude.Min          &lt;int&gt; 0, 12, 12, 0, 0, 0, 1300, 0, 0, 640, 12…
+$ Location.Altitude.Max          &lt;int&gt; 0, 12, 12, 0, 0, 0, 1400, 0, 0, 1400, 1…
+$ Location.Altitude.Average      &lt;int&gt; 0, 12, 12, 0, 0, 0, 1350, 0, 0, 1020, 1…
+$ Year                           &lt;int&gt; 2010, 2010, 2010, 2010, 2010, 2010, 201…
+$ Data.Owner                     &lt;chr&gt; "kona pacific farmers cooperative", "ja…
+$ Data.Type.Species              &lt;chr&gt; "Arabica", "Arabica", "Arabica", "Arabi…
+$ Data.Type.Variety              &lt;chr&gt; "nan", "Yellow Bourbon", "Yellow Bourbo…
+$ Data.Type.Processing.method    &lt;chr&gt; "nan", "nan", "nan", "nan", "nan", "nan…
+$ Data.Production.Number.of.bags &lt;int&gt; 25, 300, 300, 360, 300, 12, 10, 360, 30…
+$ Data.Production.Bag.weight     &lt;dbl&gt; 45.35920, 60.00000, 60.00000, 6.00000, …
+$ Data.Scores.Aroma              &lt;dbl&gt; 8.25, 8.17, 8.42, 7.67, 7.58, 7.50, 7.6…
+$ Data.Scores.Flavor             &lt;dbl&gt; 8.42, 7.92, 7.92, 8.00, 7.83, 7.92, 7.5…
+$ Data.Scores.Aftertaste         &lt;dbl&gt; 8.08, 7.92, 8.00, 7.83, 7.58, 7.42, 7.5…
+$ Data.Scores.Acidity            &lt;dbl&gt; 7.75, 7.75, 7.75, 8.00, 8.00, 7.67, 7.5…
+$ Data.Scores.Body               &lt;dbl&gt; 7.67, 8.33, 7.92, 7.92, 7.83, 7.83, 7.6…
+$ Data.Scores.Balance            &lt;dbl&gt; 7.83, 8.00, 8.00, 7.83, 7.50, 7.58, 7.5…
+$ Data.Scores.Uniformity         &lt;dbl&gt; 10.00, 10.00, 10.00, 10.00, 10.00, 10.0…
+$ Data.Scores.Sweetness          &lt;dbl&gt; 10.00, 10.00, 10.00, 10.00, 10.00, 10.0…
+$ Data.Scores.Moisture           &lt;dbl&gt; 0.00, 0.08, 0.01, 0.00, 0.10, 0.01, 0.0…
+$ Data.Scores.Total              &lt;dbl&gt; 86.25, 86.17, 86.17, 85.08, 83.83, 83.4…
+$ Data.Color                     &lt;chr&gt; "Unknown", "Unknown", "Unknown", "Unkno…</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="data-3" class="level1">
+<h1>Data 3</h1>
+<section id="introduction-and-data-2" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-and-data-2">Introduction and data</h2>
+<p>The county_demographics data was taken from the CORGIS Datasets project. This information was collected by the United States Census Bureau about counties in the United States from 2010 through 2019. The observations include county data about age distributions, the education levels, employment statistics, ethnicity percents, household information, income, and other miscellaneous statistics about women-, minority-, and veteran-owned firms with over 3140 observations.</p>
+</section>
+<section id="research-question-2" class="level2">
+<h2 class="anchored" data-anchor-id="research-question-2">Research question</h2>
+<p>This research question explores the topic of how attitudes of different age groups manifest in economic development. We hypothesize that since younger people tend to be more supportive of diversity, equity, and inclusion, that counties with a lower median age will show an increase in the amount of women- and minority-owned firms.</p>
+<p>The variables in this research question are quantitative, with median age and number of women-/minority-owned firms all taking numerical values.</p>
+</section>
+<section id="literature-2" class="level2">
+<h2 class="anchored" data-anchor-id="literature-2">Literature</h2>
+<p>Article: https://www.pewresearch.org/social-trends/2023/05/17/diversity-equity-and-inclusion-in-the-workplace/</p>
+<p>Summary: The article covers the rise in attention toward diversity, equity, and inclusion in the workplace, and how the opinions of various demographic groups differ toward it. Most workers have experienced DEI measures at work, and most also say these measures have a positive impact, but not many place a lot of importance in it. Women are 11% more likely than men to see DEI as good, and in this order, Black, Hispanic, Asian, and then White people have the most positive opinions of DEI. The greatest indicator by far is political lean — Republicans are equally split between positive and negative opinions, while Democrats overwhelmingly support DEI. In terms of age groups, the general trend is that younger employed adults tend to have greater support of DEI. Workers under 30 show the greatest support — 68%, which generally declines into the 40s-50s in the upper age ranges. Workers generally believe their employer pays the right amount of attention to DEI. About 1/3 of workers believe racial or ethnic diversity and age diversity is important, with slightly less support for gender and sexual orientation diversity. About half of workers also value accessibility. Overall, workers that are women, Black, Democratic or young, tend to show the greatest support toward DEI.</p>
+<p>Research Question: Our research question builds on this article, because the article indicates that the younger population supports workplace diversity more, and we want to figure out if the median age of a location is correlated with the minority ownership of businesses. Since younger demographics support diversity more, extrapolating from that, we would expect to see more minority ownership proportions in younger areas.</p>
+</section>
+<section id="glimpse-of-data-2" class="level2">
+<h2 class="anchored" data-anchor-id="glimpse-of-data-2">Glimpse of data</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>county_demographics <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"data/county_demographics.csv"</span>)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(county_demographics)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 3,139
+Columns: 43
+$ County                                                       &lt;chr&gt; "Abbevill…
+$ State                                                        &lt;chr&gt; "SC", "LA…
+$ Age.Percent.65.and.Older                                     &lt;dbl&gt; 22.4, 15.…
+$ Age.Percent.Under.18.Years                                   &lt;dbl&gt; 19.8, 25.…
+$ Age.Percent.Under.5.Years                                    &lt;dbl&gt; 4.7, 6.9,…
+$ Education.Bachelor.s.Degree.or.Higher                        &lt;dbl&gt; 15.6, 13.…
+$ Education.High.School.or.Higher                              &lt;dbl&gt; 81.7, 79.…
+$ Employment.Nonemployer.Establishments                        &lt;int&gt; 1416, 453…
+$ Ethnicities.American.Indian.and.Alaska.Native.Alone          &lt;dbl&gt; 0.3, 0.4,…
+$ Ethnicities.Asian.Alone                                      &lt;dbl&gt; 0.4, 0.3,…
+$ Ethnicities.Black.Alone                                      &lt;dbl&gt; 27.6, 18.…
+$ Ethnicities.Hispanic.or.Latino                               &lt;dbl&gt; 1.6, 2.8,…
+$ Ethnicities.Native.Hawaiian.and.Other.Pacific.Islander.Alone &lt;dbl&gt; 0.0, 0.0,…
+$ Ethnicities.Two.or.More.Races                                &lt;dbl&gt; 1.4, 1.6,…
+$ Ethnicities.White.Alone                                      &lt;dbl&gt; 70.2, 79.…
+$ Ethnicities.White.Alone..not.Hispanic.or.Latino              &lt;dbl&gt; 68.9, 77.…
+$ Housing.Homeownership.Rate                                   &lt;dbl&gt; 75.0, 71.…
+$ Housing.Households                                           &lt;int&gt; 9660, 222…
+$ Housing.Housing.Units                                        &lt;int&gt; 12245, 26…
+$ Housing.Median.Value.of.Owner.Occupied.Units                 &lt;int&gt; 90800, 11…
+$ Housing.Persons.per.Household                                &lt;dbl&gt; 2.46, 2.7…
+$ Income.Median.Houseold.Income                                &lt;int&gt; 38741, 43…
+$ Income.Per.Capita.Income                                     &lt;int&gt; 22646, 23…
+$ Miscellaneous.Foreign.Born                                   &lt;dbl&gt; 1.8, 1.3,…
+$ Miscellaneous.Land.Area                                      &lt;dbl&gt; 490.48, 6…
+$ Miscellaneous.Language.Other.than.English.at.Home            &lt;dbl&gt; 2.8, 10.0…
+$ Miscellaneous.Living.in.Same.House..1.Years                  &lt;dbl&gt; 90.4, 89.…
+$ Miscellaneous.Manufacturers.Shipments                        &lt;int&gt; 598825, -…
+$ Miscellaneous.Mean.Travel.Time.to.Work                       &lt;dbl&gt; 28.1, 28.…
+$ Miscellaneous.Percent.Female                                 &lt;dbl&gt; 51.6, 51.…
+$ Miscellaneous.Veterans                                       &lt;int&gt; 1559, 269…
+$ Population.2020.Population                                   &lt;int&gt; 24295, 57…
+$ Population.2010.Population                                   &lt;int&gt; 25417, 61…
+$ Population.Population.per.Square.Mile                        &lt;dbl&gt; 51.8, 94.…
+$ Sales.Accommodation.and.Food.Services.Sales                  &lt;int&gt; 12507, 52…
+$ Sales.Retail.Sales                                           &lt;int&gt; 91371, 60…
+$ Employment.Firms.Total                                       &lt;int&gt; 1450, 466…
+$ Employment.Firms.Women.Owned                                 &lt;int&gt; 543, 1516…
+$ Employment.Firms.Men.Owned                                   &lt;int&gt; 689, 2629…
+$ Employment.Firms.Minority.Owned                              &lt;int&gt; 317, 705,…
+$ Employment.Firms.Nonminority.Owned                           &lt;int&gt; 1080, 373…
+$ Employment.Firms.Veteran.Owned                               &lt;int&gt; 187, 388,…
+$ Employment.Firms.Nonveteran.Owned                            &lt;int&gt; 1211, 400…</code></pre>
+</div>
+</div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

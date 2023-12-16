@@ -1,0 +1,15 @@
+---
+title: "About"
+format: html
+editor: visual
+---
+
+This project was developed by **Team 2** For [STA 199: Introduction to Data Science](https://sta199-f23-1.github.io/) at Duke University. The team is comprised of the following team members.
+
+-   Team member 1: Srishti Kumari is a junior from Sioux Falls, South Dakota majoring in Neuroscience with minors in Chemistry and Global Health.
+
+-   Team member 2: Alissa Wu is a first year from Montgomery, New Jersey majoring in Computer Science with a potential minor in Mathematics.
+
+-   Team member 3: Caroline Zhang is a first year from the Bay Area, California majoring in Computer Science and Statistics.
+
+-   Team member 4: Cathy Xiang is a junior from Plainsboro, New Jersey majoring in Biology and Global Health with a Chemistry minor.
